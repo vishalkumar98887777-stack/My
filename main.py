@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes, ConversationHandler
 from database import BotDatabase
 
-TOKEN = os.getenv("8355424202:AAEVuX6_KzF_qSeghf1xOOAquLZDFtseJrI")
+TOKEN = os.getenv("BOT_TOKEN")
 BLOCKED_USERNAMES = ["LapsusVishal", "MassReportTelegram_bot"]
 
 fake = Faker()
